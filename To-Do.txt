@@ -1,0 +1,8 @@
+1. Address
+-Better handling of exceptions. I don't want to kill the program, just let user know it failed.
+ When I have GUI I want it to loop and have user try again unless they cancel.
+- Validation inside constructors to make sure adding address  is correct (state numChar = 2, zipCode numDigits = 5).
+2. User
+- Implement username and password
+- Test and debug
+- Password changes every 6 months automatically
