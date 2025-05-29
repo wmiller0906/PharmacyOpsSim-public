@@ -19,7 +19,7 @@ int main() {
     // TEST USER
     User me(true);
     //test_user_base_features(me);
-    test_user_password(me);
+    //test_user_password(me);
     
     return 0;
 }
@@ -52,6 +52,7 @@ void test_user_base_features(User& x) {
     x.print_info();
 }
 
+// VERIFIED
 void test_user_password(User& x) {
     // TEST get_password();
     cout << x.get_password() << endl;
