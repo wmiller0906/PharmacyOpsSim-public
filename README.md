@@ -13,7 +13,7 @@ Key features include:
 
 This project is developed by a pharmacy technician and computer engineering student to demonstrate how industry experience can inform software design.
 
-> **Note:** Current version is a standalone simulation and does **not** connect to live insurance providers, prescriber systems, or pharmacy management platforms. Future versions aim to expand in scope and capability.
+> **Note:** Current version is a WIP and does **not** connect to live insurance providers, prescriber systems, or pharmacy management platforms. Future versions aim to expand in scope and capability.
 
 ## Goals
 
