@@ -1,17 +1,35 @@
 # PharmacyOpsSim-public
 
-**PharmacyOpsSim** is a simulation of a pharmacy operations management system written in C++. It is designed to mirror real-world pharmacy workflow, including:
+**PharmacyOpsSim** is a pharmacy operations management system written in C++, designed to evolve from a standalone simulation into a fully functional prototype for intelligent, adaptable pharmacy software. While it currently models core pharmacy workflows for demonstration purposes, the long-term goal is to develop a system with real-world application potential.
 
-- Inventory management and product restocking
+Key features include:
+
+- Inventory management and predictive restocking logic
 - Electronic prescription (eRx) handling
 - Patient and prescription data entry
 - Insurance billing simulation
 - Product and order verification
-- Workflow queues for different pharmacy roles (data entry, verification, billing)
+- Workflow queues for distinct pharmacy roles (data entry, verification, billing)
 
 This project is developed by a pharmacy technician and computer engineering student to demonstrate how industry experience can inform software design.
 
-> **Note:** This is a standalone simulation. It does **not** interface with real insurance providers, prescriber systems, or pharmacy management systems.
+> **Note:** Current version is a standalone simulation and does **not** connect to live insurance providers, prescriber systems, or pharmacy management platforms. Future versions aim to expand in scope and capability.
+
+## Goals
+
+This project aims to address real-world challenges in pharmacy operations by combining personal industry experience with modern software and machine learning techniques. The core goals are:
+
+1. **Client-Centered Design**  
+   Leverage firsthand experience in pharmacy operations to build a system that directly reflects the practical needs and workflows of professionals in the field.
+
+2. **Intelligent Inventory Management**  
+   Apply machine learning to anticipate fluctuations in drug demand, enabling proactive inventory control that minimizes shortages and improves availability.
+
+3. **Compliance Support for Patient Health**  
+   Utilize predictive analytics to identify patients at risk of non-adherence, enabling pharmacies to intervene earlier and improve therapeutic outcomes.
+
+4. **Regulatory Adaptability**  
+   Design the system to be flexible and responsive to evolving healthcare regulations, ensuring ongoing compliance with both state and federal standards.
 
 ## License
 
@@ -31,7 +49,7 @@ If you are interested in using this code for any purpose beyond personal viewing
 - **Email:** wmiller0906@gmail.com  
 - **GitHub:** [wmiller0906](https://github.com/wmiller0906)
 
-- ## Note
+## Note
 
 This public repository contains a limited subset of the full PharmacyOpsSim project. It is provided solely for demonstration and educational purposes.
 
