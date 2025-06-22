@@ -24,6 +24,9 @@ class Note {
         std::string get_author() const;
         std::string get_date() const;
         std::string get_digital_signature() const;
+        
+        // Operator overloading
+        bool operator==(const Note& other) const;
 };
 
 #endif
