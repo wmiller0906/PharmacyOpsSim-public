@@ -48,3 +48,13 @@ std::string Note::get_date() const {
 std::string Note::get_digital_signature() const {
     return digitalSignature;
 }
+
+
+
+// Operator overloading
+bool Note::operator==(const Note& other) const {
+    return text == other.text &&
+           author == other.author &&
+           dateAndTime == other.dateAndTime &&
+           digitalSignature == other.digitalSignature;
+}
