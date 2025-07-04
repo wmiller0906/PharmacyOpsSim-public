@@ -23,3 +23,6 @@ By accessing or viewing this code, you agree to the following terms:
 For licensing inquiries, please contact:
 Email: wmiller0906@gmail.com
 GitHub: https://github.com/wmiller0906
+
+This application uses the Qt framework, which is licensed under the GNU Lesser General Public License (LGPL) v3.
+For more information, see: https://www.qt.io/licensing
